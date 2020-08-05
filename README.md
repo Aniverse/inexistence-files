@@ -1,9 +1,11 @@
 # inexistence-files
 
 #### About binary files
-ioping static is from [nench](https://github.com/n-st/nench).
-fio and iperf3 static is from [yabs](https://github.com/masonr/yet-another-bench-script).
+ioping static is from [nench](https://github.com/n-st/nench).  
+fio and iperf3 static are from [yabs](https://github.com/masonr/yet-another-bench-script).  
+smartctl (7.2 2020-07-07 r5074) static can be downloaded from: https://builds.smartmontools.org  
 
+installation
 ```
 list="smartctl fio ioping iperf3"
 mkdir -p $HOME/.abench/bin && cd $HOME/.abench/bin
